@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/Users/jym0921/Downloads/Jar/**/*.jar"
+        ],
+        "exclude": [
+            "/java-src-hands-on-0.6.zip_expanded/C:/Users/IsamaraEspinosaAlvar/Downloads/selenium-java-4.14.1/selenium-chromium-driver-4.14.1-sources.jar",
+            "/java-src-hands-on-0.6.zip_expanded/C:/Users/IsamaraEspinosaAlvar/Downloads/selenium-java-4.14.1/lib/auto-service-annotations-1.1.1.jar"
+        ]
+    }
+}

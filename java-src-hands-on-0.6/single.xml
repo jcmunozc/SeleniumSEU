@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CSE Demo Test Suite" verbose="1">
+		<parameter name="grdid" value="http://localhost:1234/wd/hub" />
+		
+	<test name="Single Test">
+		<parameter name="BROWSER" value="chrome" />
+		<classes>
+			<class name="next.steps.tests.Refactored" />
+		</classes>
+	</test>
+
+</suite>

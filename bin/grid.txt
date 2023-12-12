@@ -1,0 +1,17 @@
+- Open terminal or command prompt
+ - Cd into the directory that contains Selenium jar and drivers.
+
+Launch Grid Hub
+java -jar selenium-server-standalone-3.12.0.jar -role hub -port 12345  
+
+Launch Chrome Node for Local Hub
+java -jar -Dwebdriver.chrome.driver=./chromedriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -browser "browserName=chrome" -hub http://localhost:<hub port>
+
+Launch Firefox Node for Local Hub
+java -jar -Dwebdriver.gecko.driver=./geckodriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -browser "browserName=firefox" -hub http://localhost:<hub port>
+
+Launch Chrome Node for Remote Hub
+java -jar -Dwebdriver.chrome.driver=./chromedriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -browser "browserName=chrome" -hub http://<hub ip>:<hub port>
+
+Launch Firefox Node for Remote Hub
+java -jar -Dwebdriver.gecko.driver=./geckodriver -jar selenium-server-standalone-3.12.0.jar -role webdriver -browser "browserName=firefox" -hub http://<hub ip>:<hub port>
