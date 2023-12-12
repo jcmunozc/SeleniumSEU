@@ -11,7 +11,7 @@ public class Ex02_01_Firefox {
  									+ File.separator
  									+ "drivers"
  									+ File.separator
- 									+ "geckodriver.exe"; // add .exe for windows
+ 									+ "geckodriver"; // add .exe for windows
         System.setProperty("webdriver.gecko.driver", driverPath);
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://google.com");
