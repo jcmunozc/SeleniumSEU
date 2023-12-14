@@ -23,7 +23,7 @@ public class Ex09HandlingAlert  {
     	driver.get(Configuration.URL_DEMO_QA);
     	
 		//WebDriverWait wait = new WebDriverWait(driver, 60);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//*[contains(text(),'Click me')])[3]")));
 		submitButton.click();
 		
@@ -45,7 +45,7 @@ public class Ex09HandlingAlert  {
     	driver.get(Configuration.URL_DEMO_QA);
     	
 		//WebDriverWait wait = new WebDriverWait(driver, 60);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//*[contains(text(),'Click me')])[3]")));
 		submitButton.click();
 		

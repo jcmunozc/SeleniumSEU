@@ -22,7 +22,7 @@ class Ex02LoginLogout_EW extends BaseTest1{
 	public void test() throws Exception {
 		// Create Driver
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement lnk_password = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//*[contains(text(),'Password')])[2]")));
         lnk_password.click();
        

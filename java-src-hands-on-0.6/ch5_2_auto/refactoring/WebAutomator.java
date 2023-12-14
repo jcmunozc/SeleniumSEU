@@ -41,7 +41,7 @@ public class WebAutomator {
 			throw new Exception("Unsupported browser: " + browser);
 		}
 		//wait = new WebDriverWait(driver, Configuration.MAX_WAIT_TIME);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Configuration.MAX_WAIT_TIME));
+		WebDriverWait wait = new WebDriverWait(driver, Configuration.MAX_WAIT_TIME);
 		
 	}
 	

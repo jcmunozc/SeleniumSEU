@@ -19,7 +19,8 @@ public class Configuration {
 	
 	//private static String IP = "http://opencart.abstracta.us/"; 
 	public static String BLOG_URL = "http://opencart.abstracta.us/";
-	public static String ADMIN_URL = BLOG_URL + "/index.php?route=account/login";
+//	public static String ADMIN_URL = BLOG_URL + "/index.php?route=account/login";
+	public static String ADMIN_URL = "http://www.automationpractice.pl/index.php?controller=authentication&back=my-account";
 	public static String URL_PRODUCTO = BLOG_URL + "/index.php?route=product/category&path=25_28";
 	public static String URL_PRODUCTO_APPLE = BLOG_URL + "/index.php?route=product/product&path=25_28&product_id=42";
 	public static String URL_PRODUCTO_PLP = BLOG_URL + "/index.php?route=product/category&path=24";

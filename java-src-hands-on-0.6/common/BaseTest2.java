@@ -20,7 +20,7 @@ public class BaseTest2 {
 		// Create Driver
 		driver = Configuration.createChromeDriver();
 		//wait = new WebDriverWait(driver, 10);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
 
 		// Login

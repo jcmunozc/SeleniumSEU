@@ -692,7 +692,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="htmlunit" level="project" />
     <orderEntry type="library" name="junit.jupiter" level="project" />
+    <orderEntry type="library" name="selenium-htmlunit-driver-2.9.0" level="project" />
+    <orderEntry type="library" name="selenium-server-standalone-3.12.0" level="project" />
+    <orderEntry type="library" name="htmlunit3-driver-4.14.1-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="selenium-java-4.16" level="project" />
   </component>
 </module>

@@ -11,7 +11,7 @@ public class Ex03Chrome {
  									+ File.separator
  									+ "drivers"
  									+ File.separator
- 									+ "chromedriver.exe"; // add .exe for windows
+ 									+ "chromedriver"; // add .exe for windows
         System.setProperty("webdriver.chrome.driver", driverPath);
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.amazon.com");

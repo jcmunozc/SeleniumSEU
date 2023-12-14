@@ -14,12 +14,12 @@ class Ex03VerifyTitleFail {
 	void testValidacionTitulo() {
         WebDriver driver = Configuration.createChromeDriver();
         driver.get(Configuration.BLOG_URL);
-        String titulo_esperado="Your Store";
+        String titulo_esperado="Your Stor";
         String titulo_actual= driver.getTitle();
-        assertEquals(titulo_esperado,titulo_actual,"VALIDACIÓN TITULO PAG PRINCIPAL");
-        		
         driver.quit();
-       
+        assertEquals(titulo_esperado,titulo_actual,"VALIDACIÓN TITULO PAG PRINCIPAL");
+
+
 	}
 	
 	

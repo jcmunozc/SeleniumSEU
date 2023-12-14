@@ -20,7 +20,7 @@ public class Ex01_02_ExplicitWait {
 		// Create Driver
 		WebDriver driver = Configuration.createChromeDriver();
 		//WebDriverWait wait = new WebDriverWait(driver, 60);
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		
 		// Login
 		driver.get(Configuration.ADMIN_URL);

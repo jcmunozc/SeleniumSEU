@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="htmlunit3-driver-4.14.1-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Jar/htmlunit/htmlunit3-driver-4.14.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Jar/htmlunit/htmlunit3-driver-4.14.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Jar/htmlunit/htmlunit3-driver-4.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
